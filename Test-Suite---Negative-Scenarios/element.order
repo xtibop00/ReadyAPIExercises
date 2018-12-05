@@ -1,3 +1,8 @@
 Invalid-CapitalCity-TestCase.xml
 Invalid-CountriesUsingCurrency-TestCase.xml
 Invalid-CountryCurrency-TestCase.xml
+Invalid-CountryFlag-TestCase.xml
+Invalid-CountryIntPhoneCode-TestCase.xml
+Invalid-CountryISOCode-TestCase.xml
+Invalid-CountryName-TestCase.xml
+Invalid-CurrencyName-TestCase.xml
