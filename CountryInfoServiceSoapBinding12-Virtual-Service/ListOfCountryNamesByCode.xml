@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:mockOperation name="ListOfCountryNamesByCode" id="6f071031-f5d6-4cf0-bca5-6876c22d03bd" interface="CountryInfoServiceSoapBinding12" operation="ListOfCountryNamesByCode" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="6f071031-f5d6-4cf0-bca5-6876c22d03bdfileName">ListOfCountryNamesByCode</con:setting></con:settings><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:dispatchXPath/><con:routeScript/><con:response name="Response 1" id="ed20ba32-62b6-4228-b3a5-89014e7ae2cc" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">
+   <soap:Header/>
+   <soap:Body>
+      <web:ListOfCountryNamesByCodeResponse>
+         <web:ListOfCountryNamesByCodeResult>
+            <!--Zero or more repetitions:-->
+            <web:tCountryCodeAndName>
+               <web:sISOCode>?</web:sISOCode>
+               <web:sName>?</web:sName>
+            </web:tCountryCodeAndName>
+         </web:ListOfCountryNamesByCodeResult>
+      </web:ListOfCountryNamesByCodeResponse>
+   </soap:Body>
+</soap:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/ListOfCountryNamesByCodeResponse"/></con:response></con:mockOperation>

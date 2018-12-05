@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:mockOperation name="LanguageISOCode" id="fe0a6af2-29df-4de7-afcc-63a7b06851a0" interface="CountryInfoServiceSoapBinding" operation="LanguageISOCode" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="fe0a6af2-29df-4de7-afcc-63a7b06851a0fileName">LanguageISOCode</con:setting></con:settings><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:dispatchXPath/><con:routeScript/><con:response name="Response 1" id="3916593e-ead4-4f8b-83c5-367f77d516df" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:LanguageISOCodeResponse>
+         <web:LanguageISOCodeResult>?</web:LanguageISOCodeResult>
+      </web:LanguageISOCodeResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/LanguageISOCodeResponse"/></con:response></con:mockOperation>

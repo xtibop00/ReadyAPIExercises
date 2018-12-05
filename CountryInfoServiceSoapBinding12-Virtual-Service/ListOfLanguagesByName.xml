@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:mockOperation name="ListOfLanguagesByName" id="ad0fbbed-096a-4105-a925-da7abe2b1c99" interface="CountryInfoServiceSoapBinding12" operation="ListOfLanguagesByName" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="ad0fbbed-096a-4105-a925-da7abe2b1c99fileName">ListOfLanguagesByName</con:setting></con:settings><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:dispatchXPath/><con:routeScript/><con:response name="Response 1" id="87feadf9-3822-4a60-b640-8de6a07a6922" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">
+   <soap:Header/>
+   <soap:Body>
+      <web:ListOfLanguagesByNameResponse>
+         <web:ListOfLanguagesByNameResult>
+            <!--Zero or more repetitions:-->
+            <web:tLanguage>
+               <web:sISOCode>?</web:sISOCode>
+               <web:sName>?</web:sName>
+            </web:tLanguage>
+         </web:ListOfLanguagesByNameResult>
+      </web:ListOfLanguagesByNameResponse>
+   </soap:Body>
+</soap:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/ListOfLanguagesByNameResponse"/></con:response></con:mockOperation>

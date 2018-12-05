@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:mockOperation name="ListOfCountryNamesGroupedByContinent" id="dffb282d-e149-4084-bc24-21b595be3ed6" interface="CountryInfoServiceSoapBinding12" operation="ListOfCountryNamesGroupedByContinent" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="dffb282d-e149-4084-bc24-21b595be3ed6fileName">ListOfCountryNamesGroupedByContinent</con:setting></con:settings><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:dispatchXPath/><con:routeScript/><con:response name="Response 1" id="41b8f4d3-7917-4940-9134-212e4e8962d6" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">
+   <soap:Header/>
+   <soap:Body>
+      <web:ListOfCountryNamesGroupedByContinentResponse>
+         <web:ListOfCountryNamesGroupedByContinentResult>
+            <!--Zero or more repetitions:-->
+            <web:tCountryCodeAndNameGroupedByContinent>
+               <web:Continent>
+                  <web:sCode>?</web:sCode>
+                  <web:sName>?</web:sName>
+               </web:Continent>
+               <web:CountryCodeAndNames>
+                  <!--Zero or more repetitions:-->
+                  <web:tCountryCodeAndName>
+                     <web:sISOCode>?</web:sISOCode>
+                     <web:sName>?</web:sName>
+                  </web:tCountryCodeAndName>
+               </web:CountryCodeAndNames>
+            </web:tCountryCodeAndNameGroupedByContinent>
+         </web:ListOfCountryNamesGroupedByContinentResult>
+      </web:ListOfCountryNamesGroupedByContinentResponse>
+   </soap:Body>
+</soap:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/ListOfCountryNamesGroupedByContinentResponse"/></con:response></con:mockOperation>

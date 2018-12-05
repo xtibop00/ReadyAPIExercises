@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:mockOperation name="FullCountryInfoAllCountries" id="15ddf4df-3dba-4c4f-a0c9-0d5fe30aa9aa" interface="CountryInfoServiceSoapBinding" operation="FullCountryInfoAllCountries" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="15ddf4df-3dba-4c4f-a0c9-0d5fe30aa9aafileName">FullCountryInfoAllCountries</con:setting></con:settings><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:dispatchXPath/><con:routeScript/><con:response name="Response 1" id="1589e1e2-26dd-403d-bb8c-469411e60080" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:FullCountryInfoAllCountriesResponse>
+         <web:FullCountryInfoAllCountriesResult>
+            <!--Zero or more repetitions:-->
+            <web:tCountryInfo>
+               <web:sISOCode>?</web:sISOCode>
+               <web:sName>?</web:sName>
+               <web:sCapitalCity>?</web:sCapitalCity>
+               <web:sPhoneCode>?</web:sPhoneCode>
+               <web:sContinentCode>?</web:sContinentCode>
+               <web:sCurrencyISOCode>?</web:sCurrencyISOCode>
+               <web:sCountryFlag>?</web:sCountryFlag>
+               <web:Languages>
+                  <!--Zero or more repetitions:-->
+                  <web:tLanguage>
+                     <web:sISOCode>?</web:sISOCode>
+                     <web:sName>?</web:sName>
+                  </web:tLanguage>
+               </web:Languages>
+            </web:tCountryInfo>
+         </web:FullCountryInfoAllCountriesResult>
+      </web:FullCountryInfoAllCountriesResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/FullCountryInfoAllCountriesResponse"/></con:response></con:mockOperation>

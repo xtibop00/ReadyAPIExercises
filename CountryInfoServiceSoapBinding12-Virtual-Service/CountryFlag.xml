@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:mockOperation name="CountryFlag" id="064f2185-5e2e-4259-986b-3a7d913395bf" interface="CountryInfoServiceSoapBinding12" operation="CountryFlag" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="064f2185-5e2e-4259-986b-3a7d913395bffileName">CountryFlag</con:setting></con:settings><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:dispatchXPath/><con:routeScript/><con:response name="Response 1" id="fadd2fe9-2c4b-4327-aa42-4f2276fd98b4" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">
+   <soap:Header/>
+   <soap:Body>
+      <web:CountryFlagResponse>
+         <web:CountryFlagResult>?</web:CountryFlagResult>
+      </web:CountryFlagResponse>
+   </soap:Body>
+</soap:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/CountryFlagResponse"/></con:response></con:mockOperation>

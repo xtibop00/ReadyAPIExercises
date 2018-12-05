@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="6f8d0c77-4f76-4169-84b9-cc9b938c2efd" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="ListOfContinentsByCode TestCase" searchProperties="true" timeout="0" maxResults="0" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="6f8d0c77-4f76-4169-84b9-cc9b938c2efdfileName">ListOfContinentsByCode-TestCase</con:setting></con:settings><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="request" name="List of continents by code" id="a20638a8-7550-4483-9a01-84a845081ec3"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>CountryInfoServiceSoapBinding12</con:interface><con:operation>ListOfContinentsByCode</con:operation><con:request name="List of continents by code" id="f728f453-bc0b-47c2-8862-1095b02e0366"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">
+   <soap:Header/>
+   <soap:Body>
+      <web:ListOfContinentsByCode/>
+   </soap:Body>
+</soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="fc5a0852-3e91-49a5-9670-4401b918b5d9"/><con:assertion type="Schema Compliance" id="6d3c8e88-7f48-4682-8638-ad66270fa1b8"><con:configuration/></con:assertion><con:assertion type="SOAP Fault Assertion" id="38e6054c-d7ee-4f28-b0f9-4ded152ad1ff"/><con:assertion type="XPath Match" id="9fd2c9d3-2a7a-46ef-9b37-a42608492f16" name="XPath Match"><con:configuration><path>declare namespace m='http://www.oorsprong.org/websamples.countryinfo';
+//m:ListOfContinentsByCodeResponse[1]</path><content><![CDATA[<m:ListOfContinentsByCodeResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo" xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+  <m:ListOfContinentsByCodeResult>
+    <m:tContinent>
+      <m:sCode>AF</m:sCode>
+      <m:sName>Africa</m:sName>
+    </m:tContinent>
+    <m:tContinent>
+      <m:sCode>AM</m:sCode>
+      <m:sName>The Americas</m:sName>
+    </m:tContinent>
+    <m:tContinent>
+      <m:sCode>AN</m:sCode>
+      <m:sName>Antarctica</m:sName>
+    </m:tContinent>
+    <m:tContinent>
+      <m:sCode>AS</m:sCode>
+      <m:sName>Asia</m:sName>
+    </m:tContinent>
+    <m:tContinent>
+      <m:sCode>EU</m:sCode>
+      <m:sName>Europe</m:sName>
+    </m:tContinent>
+    <m:tContinent>
+      <m:sCode>OC</m:sCode>
+      <m:sName>Ocenania</m:sName>
+    </m:tContinent>
+  </m:ListOfContinentsByCodeResult>
+</m:ListOfContinentsByCodeResponse>]]></content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase>

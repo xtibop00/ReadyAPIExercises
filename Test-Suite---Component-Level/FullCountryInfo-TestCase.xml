@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="26d8ffc6-922a-4e40-badf-6ccff7f47432" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="FullCountryInfo TestCase" searchProperties="true" timeout="0" maxResults="0" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="26d8ffc6-922a-4e40-badf-6ccff7f47432fileName">FullCountryInfo-TestCase</con:setting></con:settings><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="request" name="Full country info" id="12581c88-a945-4dbe-85d2-129364bc3537"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>CountryInfoServiceSoapBinding12</con:interface><con:operation>FullCountryInfo</con:operation><con:request name="Full country info" id="0a605169-8555-49a2-b003-58e482a8f2da"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">
+   <soap:Header/>
+   <soap:Body>
+      <web:FullCountryInfo>
+         <web:sCountryISOCode>NZ</web:sCountryISOCode>
+      </web:FullCountryInfo>
+   </soap:Body>
+</soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="d5b2f4bc-7dc8-423c-a734-2ec8cd253233"/><con:assertion type="Schema Compliance" id="21932fb1-77fb-4052-9c48-64c551fd2c59"><con:configuration/></con:assertion><con:assertion type="SOAP Fault Assertion" id="1935c81f-7a7c-4e26-96f1-7e778c562e2d"/><con:assertion type="XPath Match" id="ffbeccf2-b551-4604-bbc1-e35eb8548cd3" name="XPath Match"><con:configuration><path>declare namespace m='http://www.oorsprong.org/websamples.countryinfo';
+//m:FullCountryInfoResponse[1]</path><content><![CDATA[<m:FullCountryInfoResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo" xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+  <m:FullCountryInfoResult>
+    <m:sISOCode>NZ</m:sISOCode>
+    <m:sName>New Zealand</m:sName>
+    <m:sCapitalCity>Wellington</m:sCapitalCity>
+    <m:sPhoneCode>64</m:sPhoneCode>
+    <m:sContinentCode>OC</m:sContinentCode>
+    <m:sCurrencyISOCode>NZD</m:sCurrencyISOCode>
+    <m:sCountryFlag>http://www.oorsprong.org/WebSamples.CountryInfo/Images/New_Zealand.jpg</m:sCountryFlag>
+    <m:Languages>
+      <m:tLanguage>
+        <m:sISOCode>eng</m:sISOCode>
+        <m:sName>English</m:sName>
+      </m:tLanguage>
+    </m:Languages>
+  </m:FullCountryInfoResult>
+</m:FullCountryInfoResponse>]]></content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase>

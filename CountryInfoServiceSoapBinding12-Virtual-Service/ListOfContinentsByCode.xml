@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:mockOperation name="ListOfContinentsByCode" id="b5bd0f0e-a44c-4b82-8632-ca000b23c124" interface="CountryInfoServiceSoapBinding12" operation="ListOfContinentsByCode" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="b5bd0f0e-a44c-4b82-8632-ca000b23c124fileName">ListOfContinentsByCode</con:setting></con:settings><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:dispatchXPath/><con:routeScript/><con:response name="Response 1" id="43377e19-ade8-4e56-a051-9d673d1f1771" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">
+   <soap:Header/>
+   <soap:Body>
+      <web:ListOfContinentsByCodeResponse>
+         <web:ListOfContinentsByCodeResult>
+            <!--Zero or more repetitions:-->
+            <web:tContinent>
+               <web:sCode>?</web:sCode>
+               <web:sName>?</web:sName>
+            </web:tContinent>
+         </web:ListOfContinentsByCodeResult>
+      </web:ListOfContinentsByCodeResponse>
+   </soap:Body>
+</soap:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/ListOfContinentsByCodeResponse"/></con:response></con:mockOperation>

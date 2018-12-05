@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:mockOperation name="CapitalCity" id="f4cd081f-a2f4-4c35-8840-b3b77cf10379" interface="CountryInfoServiceSoapBinding" operation="CapitalCity" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="f4cd081f-a2f4-4c35-8840-b3b77cf10379fileName">CapitalCity</con:setting></con:settings><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:dispatchXPath/><con:routeScript/><con:response name="Response 1" id="578052a6-43fa-4a76-b7f7-b300b0c0f9f3" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:CapitalCityResponse>
+         <web:CapitalCityResult>?</web:CapitalCityResult>
+      </web:CapitalCityResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/CapitalCityResponse"/></con:response></con:mockOperation>

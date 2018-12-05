@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:mockOperation name="FullCountryInfo" id="496f9d4e-8624-4a85-a44f-24888d988948" interface="CountryInfoServiceSoapBinding12" operation="FullCountryInfo" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="496f9d4e-8624-4a85-a44f-24888d988948fileName">FullCountryInfo</con:setting></con:settings><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:dispatchXPath/><con:routeScript/><con:response name="Response 1" id="8b32d5a9-5cc2-498b-8c77-93e7a44a2a2f" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">
+   <soap:Header/>
+   <soap:Body>
+      <web:FullCountryInfoResponse>
+         <web:FullCountryInfoResult>
+            <web:sISOCode>?</web:sISOCode>
+            <web:sName>?</web:sName>
+            <web:sCapitalCity>?</web:sCapitalCity>
+            <web:sPhoneCode>?</web:sPhoneCode>
+            <web:sContinentCode>?</web:sContinentCode>
+            <web:sCurrencyISOCode>?</web:sCurrencyISOCode>
+            <web:sCountryFlag>?</web:sCountryFlag>
+            <web:Languages>
+               <!--Zero or more repetitions:-->
+               <web:tLanguage>
+                  <web:sISOCode>?</web:sISOCode>
+                  <web:sName>?</web:sName>
+               </web:tLanguage>
+            </web:Languages>
+         </web:FullCountryInfoResult>
+      </web:FullCountryInfoResponse>
+   </soap:Body>
+</soap:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/FullCountryInfoResponse"/></con:response></con:mockOperation>

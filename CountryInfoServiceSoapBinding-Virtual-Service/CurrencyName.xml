@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:mockOperation name="CurrencyName" id="2a5eee5c-72d9-4e3d-b0a3-0bdae6c29f79" interface="CountryInfoServiceSoapBinding" operation="CurrencyName" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="2a5eee5c-72d9-4e3d-b0a3-0bdae6c29f79fileName">CurrencyName</con:setting></con:settings><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:dispatchXPath/><con:routeScript/><con:response name="Response 1" id="b44e2ce8-a24a-49ff-a4d4-90e5f796162b" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:CurrencyNameResponse>
+         <web:CurrencyNameResult>?</web:CurrencyNameResult>
+      </web:CurrencyNameResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/CurrencyNameResponse"/></con:response></con:mockOperation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:mockOperation name="ListOfCurrenciesByName" id="8b0128e4-0502-49c5-93a7-11e9442697a8" interface="CountryInfoServiceSoapBinding12" operation="ListOfCurrenciesByName" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="8b0128e4-0502-49c5-93a7-11e9442697a8fileName">ListOfCurrenciesByName</con:setting></con:settings><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:dispatchXPath/><con:routeScript/><con:response name="Response 1" id="5298de3b-d90e-444e-8361-7db9928b0069" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">
+   <soap:Header/>
+   <soap:Body>
+      <web:ListOfCurrenciesByNameResponse>
+         <web:ListOfCurrenciesByNameResult>
+            <!--Zero or more repetitions:-->
+            <web:tCurrency>
+               <web:sISOCode>?</web:sISOCode>
+               <web:sName>?</web:sName>
+            </web:tCurrency>
+         </web:ListOfCurrenciesByNameResult>
+      </web:ListOfCurrenciesByNameResponse>
+   </soap:Body>
+</soap:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/ListOfCurrenciesByNameResponse"/></con:response></con:mockOperation>
