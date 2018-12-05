@@ -63,6 +63,7 @@ Test-Suite---Component-Level\ListOfLanguagesByCode-TestCase.xml
 Test-Suite---Component-Level\ListOfLanguagesByName-TestCase.xml
 Test-Suite---Negative-Scenarios\Invalid-CapitalCity-TestCase.xml
 Test-Suite---Negative-Scenarios\Invalid-CountriesUsingCurrency-TestCase.xml
+Test-Suite---Negative-Scenarios\Invalid-CountryCurrency-TestCase.xml
 CountryInfoServiceSoapBinding12-Virtual-Service\CapitalCity.xml
 CountryInfoServiceSoapBinding12-Virtual-Service\CountriesUsingCurrency.xml
 CountryInfoServiceSoapBinding12-Virtual-Service\CountryCurrency.xml

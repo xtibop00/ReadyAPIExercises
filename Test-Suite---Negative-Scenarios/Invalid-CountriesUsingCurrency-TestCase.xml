@@ -28,23 +28,4 @@
       <m:sName>Heard Island And McDonald Islands</m:sName>
     </m:tCountryCodeAndName>
   </m:CountriesUsingCurrencyResult>
-</m:CountriesUsingCurrencyResponse>]]></content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="request" name="Copy of Missing country code input" id="3b2a1c20-83d5-402b-82e4-3abdfe6d3e57"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>CountryInfoServiceSoapBinding12</con:interface><con:operation>CountriesUsingCurrency</con:operation><con:request name="Copy of Missing country code input" id="388e4fbf-0b66-4c29-9ddb-e236e97d7945"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">
-   <soap:Header/>
-   <soap:Body>
-      <web:CountriesUsingCurrency>
-         <web:sISOCurrencyCode/>
-      </web:CountriesUsingCurrency>
-   </soap:Body>
-</soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="f7736876-4a4b-40a8-9232-c0d7d65816b1"/><con:assertion type="Schema Compliance" id="9d205792-0a28-4ac8-b4a1-075bd949792e"><con:configuration/></con:assertion><con:assertion type="SOAP Fault Assertion" id="d29acb14-f495-42b6-add2-71478fc1fd86"/><con:assertion type="XPath Match" id="2abb37de-d3e6-4047-9531-0e571f48e0bd" name="XPath Match"><con:configuration><path>declare namespace m='http://www.oorsprong.org/websamples.countryinfo';
-//m:CountriesUsingCurrencyResponse[1]</path><content><![CDATA[<m:CountriesUsingCurrencyResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo" xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
-  <m:CountriesUsingCurrencyResult>
-    <m:tCountryCodeAndName>
-      <m:sISOCode>AQ</m:sISOCode>
-      <m:sName>Antarctica</m:sName>
-    </m:tCountryCodeAndName>
-    <m:tCountryCodeAndName>
-      <m:sISOCode>HM</m:sISOCode>
-      <m:sName>Heard Island And McDonald Islands</m:sName>
-    </m:tCountryCodeAndName>
-  </m:CountriesUsingCurrencyResult>
 </m:CountriesUsingCurrencyResponse>]]></content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase>
