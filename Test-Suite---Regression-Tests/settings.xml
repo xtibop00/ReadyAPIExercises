@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="1a3783f3-d0e5-4d8a-8af2-1f184960a4fb" name="Test Suite - Regression Tests" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="1a3783f3-d0e5-4d8a-8af2-1f184960a4fbfileName">Test-Suite---Regression-Tests</con:setting></con:settings><con:savedRecentRuns>1</con:savedRecentRuns><con:runType>SEQUENTIAL</con:runType><con:properties/><con:reportParameters/></con:testSuite>

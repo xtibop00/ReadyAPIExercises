@@ -69,6 +69,10 @@ Test-Suite---Negative-Scenarios\Invalid-CountryIntPhoneCode-TestCase.xml
 Test-Suite---Negative-Scenarios\Invalid-CountryISOCode-TestCase.xml
 Test-Suite---Negative-Scenarios\Invalid-CountryName-TestCase.xml
 Test-Suite---Negative-Scenarios\Invalid-CurrencyName-TestCase.xml
+Test-Suite---Regression-Tests\Validate-Language-ISO-Code-via-Language-Name.xml
+Test-Suite---Regression-Tests\Validate-Language-Name-via-Lang-ISO-Code.xml
+Test-Suite---Regression-Tests\Validate-country-info-matches-to-targeted-endpoints.xml
+Test-Suite---Regression-Tests\Validate-country-by-name-info-matches-to-targeted-endpoints--WIP.xml
 CountryInfoServiceSoapBinding12-Virtual-Service\CapitalCity.xml
 CountryInfoServiceSoapBinding12-Virtual-Service\CountriesUsingCurrency.xml
 CountryInfoServiceSoapBinding12-Virtual-Service\CountryCurrency.xml

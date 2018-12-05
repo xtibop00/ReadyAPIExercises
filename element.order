@@ -2,5 +2,6 @@ CountryInfoServiceSoapBinding12
 CountryInfoServiceSoapBinding
 Test-Suite---Component-Level
 Test-Suite---Negative-Scenarios
+Test-Suite---Regression-Tests
 CountryInfoServiceSoapBinding12-Virtual-Service
 CountryInfoServiceSoapBinding-Virtual-Service
