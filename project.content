@@ -72,6 +72,7 @@ Test-Suite---Negative-Scenarios\Invalid-CurrencyName-TestCase.xml
 Test-Suite---Regression-Tests\Validate-Language-ISO-Code-via-Language-Name.xml
 Test-Suite---Regression-Tests\Validate-Language-Name-via-Lang-ISO-Code.xml
 Test-Suite---Regression-Tests\Validate-country-info-matches-to-targeted-endpoints.xml
+Exploratoring-ReadyAPI-Feature\Data-Source-using-XML-Response.xml
 CountryInfoServiceSoapBinding12-Virtual-Service\CapitalCity.xml
 CountryInfoServiceSoapBinding12-Virtual-Service\CountriesUsingCurrency.xml
 CountryInfoServiceSoapBinding12-Virtual-Service\CountryCurrency.xml
