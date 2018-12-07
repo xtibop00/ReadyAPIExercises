@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="72675a51-2131-4086-8f63-e4238c3904f1" name="Exploring ReadyAPI Features" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="72675a51-2131-4086-8f63-e4238c3904f1fileName">Exploring-ReadyAPI-Features</con:setting></con:settings><con:savedRecentRuns>1</con:savedRecentRuns><con:runType>PARALLELL</con:runType><con:properties/><con:reportParameters/></con:testSuite>
